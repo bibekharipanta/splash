@@ -12,3 +12,17 @@ public class activity_login extends AppCompatActivity {
         setContentView(R.layout.activity_login);
     }
 }
+username =
+password=
+login=
+
+private void signup() {
+    sharedpreferences sharedpreferences = getSharedpreferences(name: "user", MODE_PRIVATE);
+    sharedPreferences.Editor editor = SharedPreference.edit();
+
+    editor.putString("username", etUSername.getText().toString());
+    editor.putString("password", etPassword.getText().toString()),
+
+        Toast.makeText(context:this, text:"succesfully Refistered", Toast.LENGTH_SHORT).show();
+        }
+
